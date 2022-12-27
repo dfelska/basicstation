@@ -19,8 +19,8 @@ data:
     - GW_RESET_GPIO: 22
     - GW_POWER_EN_GPIO: 16
     - TTN_REGION: nam1
-    - TLS_SNI: true
-  defaultDeviceType: raspberrypi4
+    - TLS_SNI: false
+  defaultDeviceType: raspberrypi4-64
   supportedDeviceTypes:
     - raspberrypi3
     - raspberrypi3-64
