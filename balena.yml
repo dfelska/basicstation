@@ -7,20 +7,20 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: https://github.com/xoseperez/basicstation
+      url: https://github.com/dfelska/basicstation
   logo:
     type: blob.asset
     data:
-      url: https://raw.githubusercontent.com/xoseperez/basicstation/master/logo.png
+      url: https://raw.githubusercontent.com/dfelska/basicstation/master/logo.png
 data:
   applicationEnvironmentVariables:
-    - MODEL: RAK5146
+    - MODEL: SX1303
     - INTERFACE: SPI
-    - GW_RESET_GPIO: 17
-    - GW_POWER_EN_GPIO: 0
-    - TTN_REGION: eu1
+    - GW_RESET_GPIO: 22
+    - GW_POWER_EN_GPIO: 16
+    - TTN_REGION: nam1
     - TLS_SNI: true
-  defaultDeviceType: raspberrypi3
+  defaultDeviceType: raspberrypi4
   supportedDeviceTypes:
     - raspberrypi3
     - raspberrypi3-64
