@@ -76,11 +76,11 @@ services:
       # The default LNS server is the European TTN server. 
       # If you still want to use TTN but a different region you can set it this way,
       # this will create the TC_URI and CUPS_URI URLs for the corresponding TTN server
-      TTS_REGION: "nam1"
+      #TTS_REGION: "nam1"
 
       # Tenant name if using The Things Cloud
       # This will create the TC_URI and CUPS_URI URLs for the corresponding server
-      TTS_TENANT: "dfelska"
+      #TTS_TENANT: "dfelska"
 
       # Server name indication (SNI) check, defaults to true.
       # Use it only to connect to private LNS/CUPS servers with self-signed certificates
@@ -122,7 +122,7 @@ services:
       #GATEWAY_NAME: "gw-test-01"
 
       # TTS username with privileges to provision a gateway
-      TTS_USERNAME: "dfelska"
+      #TTS_USERNAME: "dfelska"
 
       # Personal key with privileges to provision a gateway
       # Required permissions:
@@ -133,4 +133,4 @@ services:
       #TTS_PERSONAL_KEY: "NNSXS.E2CK53N....."
       
       # The Things Stack frequency plan (https://www.thethingsindustries.com/docs/reference/frequency-plans/)
-      TTS_FREQUENCY_PLAN_ID: "US_902_928_FSB_2"
+      #TTS_FREQUENCY_PLAN_ID: "US_902_928_FSB_2"
