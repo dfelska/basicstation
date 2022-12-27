@@ -2,7 +2,7 @@ name: basicstation
 type: sw.application
 description: Deploys a LoRaWAN gateway with LoRa Basics™ Station Packet Forward protocol on SX1301, SX1302, SX1303 or SX1308 LoRa concentrators.
 joinable: false
-post-provisioning: For detailed instructions on how to use configure your LoRaWAN gateway check out the [readme here](https://github.com/xoseperez/basicstation).
+post-provisioning: For detailed instructions on how to use configure your LoRaWAN gateway check out the [readme here](https://github.com/dfelska/basicstation).
 assets:
   repository:
     type: blob.asset
