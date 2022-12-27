@@ -10,7 +10,7 @@ export TAG=$(git rev-parse --short HEAD)
 export VERSION=$(git describe --abbrev=0 --tags)
 export MAJOR=$(git describe --abbrev=0 --tags | cut -d '.' -f1)
 export BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-export REGISTRY=${REGISTRY:-"xoseperez/basicstation"}
+export REGISTRY=${REGISTRY:-"dfelska/basicstation"}
 export REMOTE_TAG=${REMOTE_TAG:-"v2.0.6"}
 export VARIANT=${VARIANT:-"stdn"}
 
