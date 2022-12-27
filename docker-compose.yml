@@ -34,7 +34,7 @@ services:
       # Option 1: set the model of the concentrator you are using (by RAK, SeeedStudio, IMST or MikroTik)
       # Option 2: set the Semtech's chip on it
       #MODEL: "RAK5146"
-      MODEL: "SX1303"
+      #MODEL: "SX1303"
 
       # The concentrator design is usually taken from the MODEL (see https://doc.sm.tc/station):
       # * V2 design was used with SX1301 and SX1308 concentrators with SPI interface
@@ -43,7 +43,7 @@ services:
       # but in case you what to specify it you can using the DESIGN variable
       #DESIGN: "V2"
       #DESIGN: "PICOCELL"
-      DESIGN: "CORECELL"
+      #DESIGN: "CORECELL"
 
       # The interface the concentrator uses, defaults to "SPI"
       #INTERFACE: "USB"
