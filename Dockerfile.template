@@ -19,7 +19,7 @@ LABEL org.label-schema.schema-version="1.0"
 LABEL org.label-schema.name="LoRaWAN Basics™ Station"
 LABEL org.label-schema.description="LoRaWAN gateway with Basics™ Station Packet Forward protocol"
 LABEL org.label-schema.vcs-type="Git"
-LABEL org.label-schema.vcs-url="https://github.com/xoseperez/basicstation"
+LABEL org.label-schema.vcs-url="https://github.com/dfelska/basicstation"
 LABEL org.label-schema.license="BSD License 2.0"
 LABEL io.balena.features.balena-api="1"
 
